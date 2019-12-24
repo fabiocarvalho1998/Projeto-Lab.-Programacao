@@ -6,22 +6,22 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Home | E-Shopper</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/price-range.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
+    <link href="{{asset("frontend/css/bootstrap.min.css")}}" rel="stylesheet">
+    <link href="{{asset("frontend/css/font-awesome.min.css")}}" rel="stylesheet">
+    <link href="{{asset("frontend/css/prettyPhoto.css")}}" rel="stylesheet">
+    <link href="{{asset("frontend/css/price-range.css")}}" rel="stylesheet">
+    <link href="{{asset("frontend/css/animate.css")}}" rel="stylesheet">
+    <link href="{{asset("frontend/css/main.css")}}" rel="stylesheet">
+    <link href="{{asset("frontend/css/responsive.css")}}" rel="stylesheet">
     <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
+    <script src="frontend/js/html5shiv.js"></script>
+    <script src="frontend/js/respond.min.js"></script>
     <![endif]-->
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="{{URL::to("images/ico/favicon.ico")}}">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{URL::to("frontend/images/ico/apple-touch-icon-144-precomposed.png")}}">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{URL::to("frontend/images/ico/apple-touch-icon-114-precomposed.png")}}">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{URL::to("frontend/images/ico/apple-touch-icon-72-precomposed.png")}}">
+    <link rel="apple-touch-icon-precomposed" href="{{URL::to("frontend/images/ico/apple-touch-icon-57-precomposed.png")}}">
 </head><!--/head-->
 
 <body>
@@ -163,8 +163,8 @@
                                 <button type="button" class="btn btn-default get">Get it now</button>
                             </div>
                             <div class="col-sm-6">
-                                <img src="images/home/girl1.jpg" class="girl img-responsive" alt="" />
-                                <img src="images/home/pricing.png"  class="pricing" alt="" />
+                                <img src="{{asset("frontend/images/home/girl1.jpg")}}" class="girl img-responsive" alt="" />
+                                <img src="{{asset("frontend/images/home/pricing.png")}}"  class="pricing" alt="" />
                             </div>
                         </div>
                         <div class="item">
@@ -175,8 +175,8 @@
                                 <button type="button" class="btn btn-default get">Get it now</button>
                             </div>
                             <div class="col-sm-6">
-                                <img src="images/home/girl2.jpg" class="girl img-responsive" alt="" />
-                                <img src="images/home/pricing.png"  class="pricing" alt="" />
+                                <img src="{{asset("frontend/images/home/girl2.jpg")}}" class="girl img-responsive" alt="" />
+                                <img src="{{asset("frontend/images/home/pricing.png")}}"  class="pricing" alt="" />
                             </div>
                         </div>
 
@@ -188,8 +188,8 @@
                                 <button type="button" class="btn btn-default get">Get it now</button>
                             </div>
                             <div class="col-sm-6">
-                                <img src="images/home/girl3.jpg" class="girl img-responsive" alt="" />
-                                <img src="images/home/pricing.png" class="pricing" alt="" />
+                                <img src="{{asset("frontend/images/home/girl3.jpg")}}" class="girl img-responsive" alt="" />
+                                <img src="{{asset("frontend/images/home/pricing.png")}}" class="pricing" alt="" />
                             </div>
                         </div>
 
@@ -345,7 +345,7 @@
                     </div><!--/price-range-->
 
                     <div class="shipping text-center"><!--shipping-->
-                        <img src="images/home/shipping.jpg" alt="" />
+                        <img src="{{URL::to("frontend/images/home/shipping.jpg")}}" alt="" />
                     </div><!--/shipping-->
 
                 </div>
@@ -357,6 +357,7 @@
                 </div>
             </div>
         </div>
+    </sec>
 </section>
 
 <footer id="footer"><!--Footer-->
@@ -389,7 +390,7 @@
                         <div class="video-gallery text-center">
                             <a href="#">
                                 <div class="iframe-img">
-                                    <img src={{URL::to"frontend/images/home/iframe2.png")}} alt="" />
+                                    <img src={{URL::to("frontend/images/home/iframe2.png")}} alt="" />
                                 </div>
                                 <div class="overlay-icon">
                                     <i class="fa fa-play-circle-o"></i>
@@ -404,7 +405,7 @@
                         <div class="video-gallery text-center">
                             <a href="#">
                                 <div class="iframe-img">
-                                    <img src={{URL::to("frontend/images/home/iframe3.png")}} alt="" />
+                                    <img src="{{URL::to("frontend/images/home/iframe3.png")}}" alt="" />
                                 </div>
                                 <div class="overlay-icon">
                                     <i class="fa fa-play-circle-o"></i>
@@ -419,7 +420,7 @@
                         <div class="video-gallery text-center">
                             <a href="#">
                                 <div class="iframe-img">
-                                    <img src="images/home/iframe4.png" alt="" />
+                                    <img src="{{URL::to("frontend/images/home/iframe4.png")}}" alt="" />
                                 </div>
                                 <div class="overlay-icon">
                                     <i class="fa fa-play-circle-o"></i>
@@ -519,11 +520,11 @@
 
 
 
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.scrollUp.min.js"></script>
-<script src="js/price-range.js"></script>
-<script src="js/jquery.prettyPhoto.js"></script>
-<script src="js/main.js"></script>
+<script src="{{asset("frontend/js/jquery.js")}}"></script>
+<script src="{{asset("frontend/js/bootstrap.min.js")}}"></script>
+<script src="{{asset("frontend/js/jquery.scrollUp.min.js")}}"></script>
+<script src="{{asset("frontend/js/price-range.js")}}"></script>
+<script src="{{asset("frontend/js/jquery.prettyPhoto.js")}}"></script>
+<script src="{{asset("frontend/js/main.js")}}"></script>
 </body>
 </html>
