@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af8562f4-d43c-4dcb-8fbb-5c78705c72ad" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ubuntu-bionic-18.04-cloudimg-console.log" beforeDir="false" afterPath="$PROJECT_DIR$/../ubuntu-bionic-18.04-cloudimg-console.log" afterDir="false" />
-=======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/all_category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/all_category.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin_layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin_layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
->>>>>>> 0a259cc4f5842025c005bc19a7c3c27929db5bce
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,9 +16,6 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -41,11 +31,6 @@
     <expand />
     <select />
   </component>
-<<<<<<< HEAD
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-=======
   <component name="FUSProjectUsageTrigger">
     <session id="-1289027323">
       <usages-collector id="statistics.lifecycle.project">
@@ -200,7 +185,6 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
->>>>>>> 0a259cc4f5842025c005bc19a7c3c27929db5bce
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
@@ -291,10 +275,6 @@
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
     </include_path>
   </component>
-<<<<<<< HEAD
-  <component name="ProjectId" id="1VU7sD2d6QNRChNysO6oeTcr9Qi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-=======
   <component name="ProjectFrameBounds">
     <option name="x" value="552" />
     <option name="width" value="1052" />
@@ -364,7 +344,6 @@
       </pane>
     </panes>
   </component>
->>>>>>> 0a259cc4f5842025c005bc19a7c3c27929db5bce
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Projeto Lab. P" />
@@ -404,33 +383,6 @@
       <workItem from="1577145578027" duration="10948000" />
       <workItem from="1577197076697" duration="11678000" />
       <workItem from="1577210596035" duration="127000" />
-<<<<<<< HEAD
-      <workItem from="1577296092282" duration="877000" />
-      <workItem from="1577306846578" duration="6000" />
-      <workItem from="1577374011217" duration="762000" />
-      <workItem from="1577454927609" duration="2843000" />
-    </task>
-    <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-=======
       <workItem from="1577223653330" duration="641000" />
       <workItem from="1577369338267" duration="335000" />
       <workItem from="1577369705535" duration="8915000" />
@@ -650,6 +602,5 @@
         </state>
       </provider>
     </entry>
->>>>>>> 0a259cc4f5842025c005bc19a7c3c27929db5bce
   </component>
 </project>
