@@ -37,4 +37,8 @@ Route::post('/save_category',[
     'as'=>'save_category',
     'uses'=>'CategoryController@save_category']);
 
-//Route::get('/save_category','CategoryController@save_category');
+Route::get('/unactive_category/{cat_id}','CategoryController@unactive_category');
+
+Route::get('/active_category/{cat_id}','CategoryController@active_category');
+
+Route::get('/edit_cat/{cat_id}','CategoryController@edit_category')->name('edit_cat');
