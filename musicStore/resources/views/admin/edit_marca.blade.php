@@ -9,14 +9,14 @@
         </li>
         <li>
             <i class="icon-edit"></i>
-            <a href="#">Editar Categoria</a>
+            <a href="#">Editar Marca</a>
         </li>
     </ul>
 
     <div class="row-fluid sortable">
         <div class="box span12">
             <div class="box-header" data-original-title>
-                <h2><i class="halflings-icon edit"></i><span class="break"></span>Editar Categoria</h2>
+                <h2><i class="halflings-icon edit"></i><span class="break"></span>Editar Marca</h2>
             </div>
             <p class="alert-success">
                 <?php
@@ -28,28 +28,28 @@
                 ?>
             </p>
             <div class="box-content">
-                <form class="form-horizontal" action="{{URL::to('/update_cat',$category_data->cat_id)}}" method="{{method_field('POST')}}">
+                <form class="form-horizontal" action="{{URL::to('/update_marca',$marca_data->m_id)}}" method="{{method_field('POST')}}">
                     {{csrf_field()}}
                     <fieldset>
 
                         <div class="control-group">
-                            <label class="control-label" for="date01">Nome da Categoria</label>
+                            <label class="control-label" for="date01">Nome da Marca</label>
                             <div class="controls">
-                                <input type="text" class="input-xlarge" name="cat_name" value="{{$category_data
-                                ->cat_name}}"  >
+                                <input type="text" class="input-xlarge" name="m_name" value="{{$marca_data
+                                ->m_name}}"  >
                             </div>
                         </div>
 
                         <div class="control-group hidden-phone">
-                            <label class="control-label" for="textarea2">Descrição da Categoria</label>
+                            <label class="control-label" for="textarea2">Descrição da Marca</label>
                             <div class="controls">
-                                <textarea class="cleditor" name="cat_description" rows="3">{{$category_data
-                                ->cat_description}}</textarea>
+                                <textarea class="cleditor" name="m_description" rows="3">{{$marca_data
+                                ->m_description}}</textarea>
                             </div>
                         </div>
 
                         <div class="form-actions">
-                            <button type="submit" class="btn btn-primary">Editar Categoria</button>
+                            <button type="submit" class="btn btn-primary">Editar Marca</button>
                         </div>
                     </fieldset>
                 </form>

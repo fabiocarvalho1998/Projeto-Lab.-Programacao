@@ -23,7 +23,7 @@
     <div class="row-fluid sortable">
         <div class="box span12">
             <div class="box-header" data-original-title>
-                <h2><i class="halflings-icon user"></i><span class="break"></span>Members</h2>
+                <h2><i class="halflings-icon user"></i><span class="break"></span>Dados</h2>
             </div>
             <div class="box-content">
                 <table class="table table-striped table-bordered bootstrap-datatable datatable">
@@ -62,7 +62,7 @@
                             <a class="btn btn-info" href="{{URL::to('/edit_cat/'.$category->cat_id)}}">
                                 <i class="halflings-icon edit"></i>
                             </a>
-                            <a class="btn btn-danger" href="#">
+                            <a class="btn btn-danger" href="{{URL::to('/delete_cat/'.$category->cat_id)}}" id="delete">
                                 <i class="halflings-icon trash"></i>
                             </a>
                         </td>

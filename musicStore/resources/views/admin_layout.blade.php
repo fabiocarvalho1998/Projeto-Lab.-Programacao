@@ -334,22 +334,22 @@
         <div id="sidebar-left" class="span2">
             <div class="nav-collapse sidebar-nav">
                 <ul class="nav nav-tabs nav-stacked main-menu">
-                    <li><a href="{{URL::to('/dashboard')}}"><i class="icon-bar-chart"></i><span class="hidden-tablet"> Dashboard</span></a></li>
-                    <li><a href="{{URL::to('/all_category')}}"><i class="icon-envelope"></i><span class="hidden-tablet"> All Category</span></a></li>
-                    <li><a href="{{URL::to('/add_category')}}"><i class="icon-tasks"></i><span class="hidden-tablet"> Add Category</span></a></li>
-                    <li><a href="ui.html"><i class="icon-eye-open"></i><span class="hidden-tablet"> All Brands</span></a></li>
-                    <li><a href="widgets.html"><i class="icon-dashboard"></i><span class="hidden-tablet"> Add Brand</span></a></li>
+                    <li><a href="{{URL::to('/dashboard')}}"><i class=""></i><span class="hidden-tablet"> Dashboard</span></a></li>
+                    <li><a href="{{URL::to('/all_category')}}"><i class=""></i><span class="hidden-tablet"> Todas as Categorias</span></a></li>
+                    <li><a href="{{URL::to('/add_category')}}"><i class=""></i><span class="hidden-tablet"> Adicionar Categoria</span></a></li>
+                    <li><a href="{{URL::to('/all_marcas')}}"><i class=""></i><span class="hidden-tablet"> Todas as Marcas</span></a></li>
+                    <li><a href="{{URL::to('/add_marca')}}"><i class=""></i><span class="hidden-tablet"> Adicionar Marca</span></a></li>
                     <li>
-                        <a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-tablet"> Products</span><span class="label label-important"> New </span></a>
+                        <a class="dropmenu" href="#"><i class=""></i><span class="hidden-tablet"> Produtos</span><span class="label label-important"> New </span></a>
                         <ul>
-                            <li><a class="submenu" href="submenu.html"><i class="icon-file-alt"></i><span class="hidden-tablet"> Add Product</span></a></li>
-                            <li><a class="submenu" href="submenu2.html"><i class="icon-file-alt"></i><span class="hidden-tablet"> All Products</span></a></li>
+                            <li><a class="submenu" href="{{URL::to('/add_produto')}}"><i class=""></i><span class="hidden-tablet"> Adicionar Produto</span></a></li>
+                            <li><a class="submenu" href="{{URL::to('/all_produtos')}}"><i class=""></i><span class="hidden-tablet"> Todos os Produtos</span></a></li>
                         </ul>
                     </li>
-                    <li><a href="form.html"><i class="icon-edit"></i><span class="hidden-tablet"> Slider</span></a></li>
-                    <li><a href="chart.html"><i class="icon-list-alt"></i><span class="hidden-tablet"> Social Link</span></a></li>
-                    <li><a href="typography.html"><i class="icon-font"></i><span class="hidden-tablet"> Shop Name</span></a></li>
-                    <li><a href="gallery.html"><i class="icon-picture"></i><span class="hidden-tablet"> Dellivery Man</span></a></li>
+                    <li><a href="form.html"><i class=""></i><span class="hidden-tablet"> Slider</span></a></li>
+                    <li><a href="chart.html"><i class=""></i><span class="hidden-tablet"> Social Link</span></a></li>
+                    <li><a href="typography.html"><i class=""></i><span class="hidden-tablet"> Shop Name</span></a></li>
+                    <li><a href="gallery.html"><i class=""></i><span class="hidden-tablet"> Dellivery Man</span></a></li>
                 </ul>
             </div>
         </div>
@@ -430,7 +430,9 @@
 <script src="{{asset('backend/js/counter.js')}}"></script>
 <script src="{{asset('backend/js/retina.js')}}"></script>
 <script src="{{asset('backend/js/custom.js')}}"></script>
+
 <!-- end: JavaScript-->
+
 
 </body>
 
