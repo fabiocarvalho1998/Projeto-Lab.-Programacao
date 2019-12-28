@@ -9,11 +9,14 @@ use Session;
 
 class CategoryController extends Controller
 {
+
     public function index(){
+        $this->AdminAuthCheck();
         return view('admin.add_category');
     }
 
     public function all_category(){
+        $this->AdminAuthCheck();
         $all_category_data=DB::table('categorias')->get();
         $manage_category=view('admin.all_category')->with('all_category_data',$all_category_data);
 
@@ -50,6 +53,7 @@ class CategoryController extends Controller
     }
 
     public function edit_category($cat_id){
+        $this->AdminAuthCheck();
         $category_data=DB::table('categorias')
             ->where('cat_id',$cat_id)
             ->first();
@@ -59,6 +63,7 @@ class CategoryController extends Controller
     }
 
     public function update_category(Request $req,$cat_id){
+
         $data=array();
         $data['cat_name']=$req->cat_name;
         $data['cat_description']=$req->cat_description;
@@ -76,4 +81,15 @@ class CategoryController extends Controller
         Session::get('message','Categoria apagada com sucesso!');
         return Redirect::to('all_category');
     }
+
+    public function AdminAuthCheck(){
+        $admin_id=Session::get('adm_id');
+        if($admin_id){
+            return;
+        }
+        else{
+            return Redirect::to('/admin')->send();
+        }
+    }
+
 }

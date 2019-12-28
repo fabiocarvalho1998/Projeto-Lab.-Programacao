@@ -15,9 +15,7 @@ class AdminController extends Controller{
         return view('admin_login');
     }
 
-    public function show_dashboard(){
-        return view('admin.dashboard');
-    }
+
 
     public function dashboard(Request $request){
         $adm_email=$request->adm_email;
@@ -34,11 +32,9 @@ class AdminController extends Controller{
             return Redirect::to('/admin');
         }
     }
-
-    public function logout(){
-        //Session::put('adm_name',null);
-        //Session::put('0adm_id',null);
-        Session::flush();
-        return Redirect::to('/admin');
-    }
+//    public function logout(){
+//        Session::flush();
+//        return Redirect()::to('/admin');
+//
+//    }
 }

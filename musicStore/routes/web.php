@@ -20,13 +20,14 @@ Route::get('/','HomeController@index');
 //Backend routes
 
 Route::get('/admin','AdminController@index');
-Route::get('/dashboard','AdminController@show_dashboard');
+
+Route::get('/dashboard','SuperAdminController@index');
 
 Route::post('/admin_dashboard',[
     'as'=>'admin_dashboard',
     'uses'=>'AdminController@dashboard']);
 
-Route::get('/logout','AdminController@logout');
+Route::get('/logout','SuperAdminController@logout');
 
 
 //rotas relacionadas com as categorias
@@ -78,12 +79,12 @@ Route::post('/save_produto',[
 
 Route::get('/all_produtos','ProdutoController@all_produto');
 
-Route::get('/unactive_produto/{m_id}','ProdutoController@unactive_produto');
+Route::get('/unactive_produto/{p_id}','ProdutoController@unactive_produto');
 
-Route::get('/active_produto/{m_id}','ProdutoController@active_produto');
+Route::get('/active_produto/{p_id}','ProdutoController@active_produto');
 
-Route::get('/editprodutoa/{m_id}','ProdutoController@edit_produto');
+Route::get('/editproduto/{p_id}','ProdutoController@edit_produto');
 
-Route::get('/update_produto/{m_id}','ProdutoController@update_produto');
+Route::get('/update_produto/{p_id}','ProdutoController@update_produto');
 
-Route::get('/delete_produto/{m_id}','ProdutoController@delete_produto');
+Route::get('/delete_produto/{p_id}','ProdutoController@delete_produto');

@@ -9,14 +9,29 @@ use Session;
 
 class ProdutoController extends Controller
 {
+
+
+    public function AdminAuthCheck(){
+        $admin_id=Session::get('adm_id');
+        if($admin_id){
+            return;
+        }
+        else{
+            return Redirect::to('/admin')->send();
+        }
+    }
+
     public function index(){
+        $this->AdminAuthCheck();
         return view('admin.add_produto');
     }
     public function all_produto(){
+        $this->AdminAuthCheck();
         $all_produtos_data=DB::table('produtos')
 
             ->join('categorias', 'produtos.cat_id','=','categorias.cat_id')
             ->join('marcas','produtos.m_id','=','marcas.m_id')
+            ->select('produtos.*','categorias.cat_name','marcas.m_name')
 
             ->get();
 
@@ -55,5 +70,41 @@ class ProdutoController extends Controller
                 return Redirect::to('/add_produto');
             }
         }
+
+    }
+    public function unactive_produto($p_id){
+        DB::table('produtos')
+            ->where('p_id',$p_id)
+            ->update(['publication_status'=>0]);
+
+        Session::put('message','Produto '.$p_id.' Desativada!');
+        return Redirect::to('/all_produtos');
+    }
+
+    public function active_produto($p_id){
+        DB::table('produtos')
+            ->where('p_id',$p_id)
+            ->update(['publication_status'=>1]);
+
+        Session::put('message','Produto '.$p_id.' ativada!');
+        return Redirect::to('/all_produtos');
+    }
+
+    public function delete_produto($p_id){
+        $this->AdminAuthCheck();
+        DB::table('produtos')
+            ->where('p_id',$p_id)
+            ->delete();
+        Session::get('message','Produto apagado com sucesso!');
+        return Redirect::to('/all_produtos');
+    }
+    public function edit_produto(Request $req,$p_id){
+        $this->AdminAuthCheck();
+        $produto_data=DB::table('produtos')
+            ->where('p_id',$p_id)
+            ->first();
+        $produto_data=view('admin.edit_produto')->with('produto_data',$produto_data);
+
+        return view('admin_layout')->with('admin.edit_produto',$produto_data);
     }
 }
