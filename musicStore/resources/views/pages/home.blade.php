@@ -1,21 +1,29 @@
 @extends('layout')
 @section('content')
     <h2 class="title text-center">Features Items</h2>
+    <?php
+    $all_produtos_publicados=DB::table('produtos')
+        ->join('categorias', 'produtos.cat_id','=','categorias.cat_id')
+        ->join('marcas','produtos.m_id','=','marcas.m_id')
+        ->select('produtos.*','categorias.cat_name','marcas.m_name')
+        ->where('produtos.publication_status',1)
+        ->limit(9)
+        ->get();
 
- <?php foreach ($all_produtos_publicados as $published_produtos){?>
+     foreach ($all_produtos_publicados as $published_produtos){?>
     <div class="col-sm-4">
         <div class="product-image-wrapper">
             <div class="single-products">
                 <div class="productinfo text-center">
-                    <img src="{{URL::to("frontend/images/home/product1.jpg")}}" alt="" />
-                    <h2>$56</h2>
-                    <p>{{$published_produto->p_name}}</p>
+                    <img src="{{URL::to($published_produtos->p_image)}}"style="height: 300px" alt="" />
+                    <h2>{{$published_produtos->p_price }}€</h2>
+                    <p>{{$published_produtos->p_name}}</p>
                     <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
                 </div>
                 <div class="product-overlay">
                     <div class="overlay-content">
-                        <h2>$56</h2>
-                        <p>Easy Polo Black Edition</p>
+                        <h2>{{$published_produtos->p_price }}€</h2>
+                        <p>{{$published_produtos->p_name}}</p>
                         <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
                     </div>
                 </div>
@@ -23,7 +31,7 @@
             <div class="choose">
                 <ul class="nav nav-pills nav-justified">
                     <li><a href="#"><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-                    <li><a href="#"><i class="fa fa-plus-square"></i>Add to compare</a></li>
+                    <li><a href="#"><i class="fa fa-plus-square"></i>View Product</a></li>
                 </ul>
             </div>
         </div>
