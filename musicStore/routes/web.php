@@ -88,3 +88,17 @@ Route::get('/editproduto/{p_id}','ProdutoController@edit_produto');
 Route::get('/update_produto/{p_id}','ProdutoController@update_produto');
 
 Route::get('/delete_produto/{p_id}','ProdutoController@delete_produto');
+
+//slider routes
+
+
+
+Route::get('/add_slider','SliderController@index');
+Route::post('/save_slider',[
+    'as'=>'save_slider',
+    'uses'=>'SliderController@save_slider']);
+Route::get('/all_sliders','SliderController@all_sliders');
+
+
+
+

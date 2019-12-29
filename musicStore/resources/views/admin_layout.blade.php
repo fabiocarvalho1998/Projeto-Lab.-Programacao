@@ -346,7 +346,13 @@
                             <li><a class="submenu" href="{{URL::to('/all_produtos')}}"><i class=""></i><span class="hidden-tablet"> Todos os Produtos</span></a></li>
                         </ul>
                     </li>
-                    <li><a href="form.html"><i class=""></i><span class="hidden-tablet"> Slider</span></a></li>
+                    <li>
+                        <a class="dropmenu" href="#"><i class=""></i><span class="hidden-tablet"> Slider </span></a>
+                        <ul>
+                            <li><a class="submenu" href="{{URL::to('/add_slider')}}"><i class=""></i><span class="hidden-tablet"> Adicionar Slider</span></a></li>
+                            <li><a class="submenu" href="{{URL::to('/all_sliders')}}"><i class=""></i><span class="hidden-tablet"> Todos os Sliders</span></a></li>
+                        </ul>
+                    </li>
                     <li><a href="chart.html"><i class=""></i><span class="hidden-tablet"> Social Link</span></a></li>
                     <li><a href="typography.html"><i class=""></i><span class="hidden-tablet"> Shop Name</span></a></li>
                     <li><a href="gallery.html"><i class=""></i><span class="hidden-tablet"> Dellivery Man</span></a></li>
