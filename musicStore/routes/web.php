@@ -98,6 +98,10 @@ Route::post('/save_slider',[
     'as'=>'save_slider',
     'uses'=>'SliderController@save_slider']);
 Route::get('/all_sliders','SliderController@all_sliders');
+Route::get('/unactive_slider/{slide_id}','SliderController@unactive_slider');
+Route::get('/active_slider/{slide_id}','SliderController@active_slider');
+Route::get('/delete_slider/{slide_id}','SliderController@delete_slider');
+
 
 
 

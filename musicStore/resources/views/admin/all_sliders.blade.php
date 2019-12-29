@@ -58,7 +58,7 @@
                                     </a>
                                 @endif
 
-                                <a class="btn btn-danger" href="{{URL::to('/delete_produto/'.$sliders->slide_id)}}" id="delete">
+                                <a class="btn btn-danger" href="{{URL::to('/delete_slider/'.$sliders->slide_id)}}" id="delete">
                                     <i class="halflings-icon trash"></i>
                                 </a>
                             </td>

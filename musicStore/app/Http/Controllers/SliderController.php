@@ -44,4 +44,31 @@ class SliderController extends Controller
 
 
     }
+
+
+    public function unactive_slider($slider_id){
+        DB::table('slider')
+            ->where('slide_id',$slider_id)
+            ->update(['publication_status'=>0]);
+
+        Session::put('message','Slider '.$slider_id.' Desativada!');
+        return Redirect::to('/all_sliders');
+
+    }
+
+    public function active_slider($slider_id){
+        DB::table('slider')
+            ->where('slide_id',$slider_id)
+            ->update(['publication_status'=>1]);
+        Session::put('message','Slider '.$slider_id.' Ativada!');
+        return Redirect::to('/all_sliders');
+    }
+
+    public function delete_slider($slider_id){
+        DB::table('slider')
+            ->where('slide_id',$slider_id)
+            ->delete();
+        Session::get('message','Slider apagado com sucesso!');
+        return Redirect::to('all_sliders');
+    }
 }
