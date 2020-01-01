@@ -13,6 +13,14 @@
 //Frontend site
 Route::get('/','HomeController@index');
 
+//show categorias
+Route::get('/produto_by_categoria/{cat_id}','HomeController@show_produto_by_categoria');
+
+Route::get('/produto_by_marca/{m_id}','HomeController@show_produto_by_marca');
+
+Route::get('/view_produto/{p_id}','HomeController@produto_detalhes_by_id');
+
+
 
 
 

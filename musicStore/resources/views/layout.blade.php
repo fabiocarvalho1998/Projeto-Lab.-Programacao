@@ -241,7 +241,7 @@
 
                                 <div class="panel panel-default">
                                     <div class="panel-heading">
-                                        <h4 class="panel-title"><a href="#">{{$cat->cat_name}}</a></h4>
+                                        <h4 class="panel-title"><a href="{{URL::to('/produto_by_categoria/'.$cat->cat_id)}}">{{$cat->cat_name}}</a></h4>
                                     </div>
                                 </div>
                         <?php } ?>
@@ -259,7 +259,7 @@
                                     ->where('publication_status',1)
                                     ->get();
                                 foreach ($all_published_marcas as $m){?>
-                                <li><a href="#"> <span class="pull-right">(50)</span>{{$m->m_name}}</a></li>
+                                <li><a href="{{URL::to('/produto_by_marca/'.$cat->cat_id)}} "> <span class="pull-right">(50)</span>{{$m->m_name}}</a></li>
                                     <?php } ?>
                             </ul>
                         </div>

@@ -24,14 +24,15 @@
                     <div class="overlay-content">
                         <h2>{{$published_produtos->p_price }}€</h2>
                         <p>{{$published_produtos->p_name}}</p>
-                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                        <a href="{{URL::to('/view_produto/'.$published_produtos->p_id)}}"><p>{{$published_produtos->p_name}}</p></a>
+                       <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
                     </div>
                 </div>
             </div>
             <div class="choose">
                 <ul class="nav nav-pills nav-justified">
-                    <li><a href="#"><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-                    <li><a href="#"><i class="fa fa-plus-square"></i>View Product</a></li>
+                    <li><a href="#"><i class="fa fa-plus-square"></i>{{$published_produtos->m_name}}</a></li>
+                    <li><a href="{{URL::to('/view_produto/'.$published_produtos->p_id)}}"><p>{{$published_produtos->p_name}}"><i class="fa fa-plus-square"></i>View Product</a></li>
                 </ul>
             </div>
         </div>
