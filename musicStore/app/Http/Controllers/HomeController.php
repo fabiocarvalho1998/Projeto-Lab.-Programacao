@@ -62,11 +62,12 @@ class HomeController extends Controller{
         $produto_by_detalhes=DB::table('produtos')
 
             ->join('categorias', 'produtos.cat_id','=','categorias.cat_id')
-            ->join('marcas','produtos.m_id','=','marcas.m_id')
-            ->select('produtos.*','categorias.cat_name','marcas.m_name')
+            ->join('marcas','produtos.m_id','=','marca.m_id')
+            ->select('produtos.*','categorias.cat_name','marca.m_name')
             ->where('produtos.p_id',$p_id)
             ->where('produtos.publication_status',1)
             ->first();
+
 
         $manage_produtos_by_detalhes=view('pages.detalhes_produtos')->with('produto_by_detalhes',$produto_by_detalhes);
         return view('layout')->with('pages.detalhes_produtos',$manage_produtos_by_detalhes );
