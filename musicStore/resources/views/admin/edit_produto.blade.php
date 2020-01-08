@@ -28,7 +28,7 @@
                 ?>
             </p>
             <div class="box-content">
-                <form class="form-horizontal" action="{{URL::to('/editproduto',$produto_data->p_id)}}" method="{{method_field('POST')}}">
+                <form class="form-horizontal" enctype='multipart/form-data' action="{{URL::to('/update_produto',$produto_data->p_id)}}" method="{{method_field('POST')}}"  >
                     {{csrf_field()}}
                     <fieldset>
 
@@ -40,11 +40,90 @@
                             </div>
                         </div>
 
-                        <div class="control-group hidden-phone">
-                            <label class="control-label" for="textarea2">Descrição do produto</label>
+                        <div class="control-group">
+                            <label class="control-label" for="selectError3">Categoria do Produto</label>
                             <div class="controls">
-                                <textarea class="cleditor" name="produto_description" rows="3">{{$produto_data
+                                <select id="selectError3" name="cat_id">
+
+                                    <?php
+                                    $all_published_category=DB::table('categorias')
+                                        ->where('publication_status',1)
+                                        ->get();
+                                    foreach($all_published_category as $c){
+                                        if($c->cat_id==$produto_data->cat_id){
+                                            $cname=$c->cat_name;
+                                        }
+                                    }
+                                    echo "<option value='$produto_data->cat_id'>$cname</option>";
+                                    foreach ($all_published_category as $cat){?>
+                                    <option value="{{$cat->cat_id}}">{{$cat->cat_name}}</option>
+                                    <?php } ?>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label" for="selectError3">Marca do Produto</label>
+                            <div class="controls">
+                                <select id="selectError3" name="m_id">
+                                    <?php
+                                    $all_published_marcas=DB::table('marcas')
+                                        ->where('publication_status',1)
+                                        ->get();
+                                    foreach($all_published_marcas as $m){
+                                        if($m->m_id==$produto_data->m_id){
+                                            $mname=$m->m_name;
+                                        }
+                                    }
+                                    echo "<option value='$produto_data->m_id'>$mname</option>";
+                                    foreach ($all_published_marcas as $m){?>
+                                    <option value="{{$m->m_id}}">{{$m->m_name}}</option>
+                                    <?php } ?>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="control-group hidden-phone">
+                            <label class="control-label" for="textarea2">Curta Descrição do Produto</label>
+                            <div class="controls">
+                                <textarea class="cleditor" name="p_short_description" rows="3" required="">{{$produto_data
                                 ->p_short_description}}</textarea>
+                            </div>
+                        </div>
+                        <div class="control-group hidden-phone">
+                            <label class="control-label" for="textarea2">Descrição Completa do Produto</label>
+                            <div class="controls">
+                                <textarea class="cleditor" name="p_long_description" rows="3" required="">{{$produto_data
+                                ->p_long_description}}</textarea>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label" for="fileInput">Imagem do Produto</label>
+                            <div class="controls">
+                                <input class="input-file" name="p_image" id="fileInput" type="file">
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label" for="date01">Preço do Produto</label>
+                            <div class="controls">
+                                <input type="text" class="input-xlarge" name="p_price" required="" value="{{$produto_data
+                                ->p_price}}">
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label" for="date01">Tamanho do Produto</label>
+                            <div class="controls">
+                                <input type="text" class="input-xlarge" name="p_size" required="" value="{{$produto_data
+                                ->p_size}}">
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label" for="date01">Cor do Produto</label>
+                            <div class="controls">
+                                <input type="text" class="input-xlarge" name="p_color" required="" value="{{$produto_data
+                                ->p_color}}" >
                             </div>
                         </div>
 

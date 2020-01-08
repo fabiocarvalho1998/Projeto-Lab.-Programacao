@@ -91,7 +91,7 @@ Route::get('/unactive_produto/{p_id}','ProdutoController@unactive_produto');
 
 Route::get('/active_produto/{p_id}','ProdutoController@active_produto');
 
-Route::get('/editproduto/{p_id}','ProdutoController@edit_produto');
+Route::get('/edit_produto/{p_id}','ProdutoController@edit_produto');
 
 Route::get('/update_produto/{p_id}','ProdutoController@update_produto');
 

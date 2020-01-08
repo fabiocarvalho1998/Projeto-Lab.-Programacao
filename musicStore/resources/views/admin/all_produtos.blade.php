@@ -67,7 +67,7 @@
                                         <i class="halflings-icon thumbs-up"></i>
                                     </a>
                                 @endif
-                                <a class="btn btn-info" href="{{URL::to('/update_produto/'.$produto->p_id)}}">
+                                <a class="btn btn-info" href="{{URL::to('/edit_produto/'.$produto->p_id)}}">
                                     <i class="halflings-icon edit"></i>
                                 </a>
                                 <a class="btn btn-danger" href="{{URL::to('/delete_produto/'.$produto->p_id)}}" id="delete">

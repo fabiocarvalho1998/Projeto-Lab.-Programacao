@@ -4,17 +4,11 @@
 
             <div class="col-sm-9 padding-right">
                 <div class="product-details"><!--product-details-->
-                    <div class="col-sm-5">
-                        <div class="view-product">
-                            <img src="{{URL::to($produto_by_detalhes->p_image)}}" alt="" />
-                            <h3>ZOOM</h3>
-                        </div>
-                    </div>
                     <div class="col-sm-7">
                         <div class="product-information"><!--/product-information-->
                             <img src="{{URL::to($produto_by_detalhes->p_image)}}" alt="">
                             <h2>{{$produto_by_detalhes->p_name}}</h2>
-                            <p>Color: {{$produto_by_detalhes->p_color}}</p>
+                            <p>Cor: {{$produto_by_detalhes->p_color}}</p>
                             <img src="{{URL::to('frontend/images/product-details/rating.png')}}" alt="" />
                             <span>
 									<span>{{$produto_by_detalhes->p_price}} €</span>
@@ -25,11 +19,12 @@
 										Add to cart
 									</button>
 								</span>
-                            <p><b>Availability:</b> In Stock</p>
-                            <p><b>Condition:</b> New</p>
-                            <p><b>Brand:</b> {{$produto_by_detalhes->m_name}}</p>
-                            <p>Categoria:</b>{{$produto_by_detalhes->cat_name}}</p>
-                            <p>Tamanho:</b>{{$produto_by_detalhes->p_size}}</p>
+                            <p><b>Disponibilidade:</b> Em Stock</p>
+                            <p><b>Condição:</b> Nova</p>
+                            <p><b>Descrição:</b> {{$produto_by_detalhes->p_long_description}}</p>
+                            <p><b>Marca:</b> {{$produto_by_detalhes->m_name}}</p>
+                            <p><b>Categoria:</b>{{$produto_by_detalhes->cat_name}}</p>
+                            <p><b>Tamanho:</b>{{$produto_by_detalhes->p_size}}</p>
                             <a href=""><img src="images/product-details/share.png" class="share img-responsive"  alt="" /></a>
                         </div><!--/product-information-->
                     </div>

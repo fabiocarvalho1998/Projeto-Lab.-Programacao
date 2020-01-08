@@ -1,6 +1,6 @@
 @extends('layout')
 @section('content')
-    <h2 class="title text-center">Features Items</h2>
+    <h2 class="title text-center">Produtos Disponíveis</h2>
     <?php
     $all_produtos_publicados=DB::table('produtos')
         ->join('categorias', 'produtos.cat_id','=','categorias.cat_id')
@@ -32,7 +32,7 @@
             <div class="choose">
                 <ul class="nav nav-pills nav-justified">
                     <li><a href="#"><i class="fa fa-plus-square"></i>{{$published_produtos->m_name}}</a></li>
-                    <li><a href="{{URL::to('/view_produto/'.$published_produtos->p_id)}}"><p>{{$published_produtos->p_name}}"><i class="fa fa-plus-square"></i>View Product</a></li>
+                    <li><a href="{{URL::to('/view_produto/'.$published_produtos->p_id)}}"><p>{{$published_produtos->p_name}}"><i class="fa fa-plus-square"></i>Ver Produto</a></li>
                 </ul>
             </div>
         </div>

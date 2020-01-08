@@ -57,7 +57,7 @@ class ProdutoController extends Controller
 
         $img=$request->file('p_image');
         if($img){
-            $img_name=str_random(20);
+            $img_name=str_random(10);
             $ext=strtolower($img->getClientOriginalExtension());
             $img_full_name=$img_name.'.'.$ext;
             $upload_path='image/';
@@ -98,7 +98,7 @@ class ProdutoController extends Controller
         Session::get('message','Produto apagado com sucesso!');
         return Redirect::to('/all_produtos');
     }
-    public function edit_produto(Request $req,$p_id){
+    public function edit_produto($p_id){
         $this->AdminAuthCheck();
         $produto_data=DB::table('produtos')
             ->where('p_id',$p_id)
@@ -106,5 +106,33 @@ class ProdutoController extends Controller
         $produto_data=view('admin.edit_produto')->with('produto_data',$produto_data);
 
         return view('admin_layout')->with('admin.edit_produto',$produto_data);
+    }
+
+    public function update_produto(Request $req,$p_id){
+        $data=array();
+        $data['p_name']=$req->p_name;
+        $data['cat_id']=$req->cat_id;
+        $data['m_id']=$req->m_id;
+        $data['p_short_description']=$req->p_short_description;
+        $data['p_long_description']=$req->p_long_description;
+        $data['p_price']=$req->p_price;
+        $data['p_size']=$req->p_size;
+        $data['p_color']=$req->p_color;
+/*
+        $img=$req->file('p_image');
+            $img_name=str_random(10);
+            $ext=strtolower($img->getClientOriginalExtension());
+            $img_full_name=$img_name.'.'.$ext;
+            $upload_path='image/';
+            $img_url=$upload_path.$img_full_name;
+            $img->move($upload_path,$img_full_name);
+
+            $data['p_image'] = $img_url;*/
+            DB::table('produtos')
+                ->where('p_id',$p_id)
+                ->update($data);
+            Session::get('message','Produto'.$p_id.' editado com sucesso!');
+            return Redirect::to('/all_produtos');
+
     }
 }
