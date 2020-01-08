@@ -52,7 +52,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </a>
-            <a class="brand" href="index.html"><span>Music Store</span></a>
+            <a class="brand" href="{{URL::to('/')}}"><span>Music Store</span></a>
 
             <!-- start: Header Menu -->
             <div class="nav-no-collapse header-nav">

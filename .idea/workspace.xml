@@ -3,154 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0f4117b9-fe9c-4216-a9b2-09dae08f713b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/.idea/dictionaries/Juze.xml" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/.idea/dictionaries/Juze.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/.idea/musicStore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/.idea/musicStore.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/.idea/workspace_BACKUP_262.xml" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/.idea/workspace_BACKUP_262.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/.idea/workspace_BASE_262.xml" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/.idea/workspace_BASE_262.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/.idea/workspace_LOCAL_262.xml" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/.idea/workspace_LOCAL_262.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/.idea/workspace_REMOTE_262.xml" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/.idea/workspace_REMOTE_262.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/.styleci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/.styleci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Console/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Http/Controllers/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Http/Controllers/Auth/ConfirmPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Http/Controllers/Auth/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Http/Controllers/Auth/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Http/Controllers/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Http/Controllers/ProdutoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Http/Controllers/ProdutoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Http/Controllers/SliderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Http/Controllers/SliderController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Http/Controllers/SuperAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Http/Controllers/SuperAdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Http/Middleware/EncryptCookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Http/Middleware/TrimStrings.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Http/Middleware/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/artisan" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/bootstrap/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/bootstrap/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/bootstrap/cache/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/config/broadcasting.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/config/cache.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/config/hashing.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/config/hashing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/config/logging.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/config/mail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/config/queue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/config/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/config/session.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/config/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/config/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/database/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/database/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/database/migrations/2019_12_29_184331_create_slide_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/database/migrations/2019_12_29_184331_create_slide_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/phpunit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/public/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/frontend/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/public/frontend/css/animate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/frontend/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/public/frontend/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/frontend/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/public/frontend/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/frontend/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/public/frontend/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/frontend/css/prettyPhoto.css" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/public/frontend/css/prettyPhoto.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/frontend/css/price-range.css" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/public/frontend/css/price-range.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/frontend/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/public/frontend/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/frontend/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/public/frontend/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/frontend/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/public/frontend/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/frontend/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/public/frontend/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/frontend/js/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/public/frontend/js/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/frontend/js/gmaps.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/public/frontend/js/gmaps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/frontend/js/html5shiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/public/frontend/js/html5shiv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/frontend/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/public/frontend/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/frontend/js/jquery.prettyPhoto.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/public/frontend/js/jquery.prettyPhoto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/frontend/js/jquery.scrollUp.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/public/frontend/js/jquery.scrollUp.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/frontend/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/public/frontend/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/frontend/js/price-range.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/public/frontend/js/price-range.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/image/7FJ51VPw8URBVn5iZQ2R.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/image/930gAbC3Mb4icp6jp221.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/image/ChsuQfKPAawDXI6UHIPE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/image/P2mI2Rr5kLZqKxKv23KV.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/image/dX9ykYIGmFejYXOY8IlC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/image/hd0vxcf9NnM6dLv4adrp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/image/jeGtW9WMVcZOIRFOxyaW.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/image/msDRoSSpCUWGC98zn6Ak.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/image/yamaha-c40-black.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/public/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/public/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/public/web.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/resources/lang/en/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/lang/en/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/resources/lang/en/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/lang/en/pagination.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/resources/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/lang/en/passwords.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/lang/en/validation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/resources/views/admin/add_category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/views/admin/add_category.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/resources/views/admin/add_marca.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/views/admin/add_marca.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/resources/views/admin/add_produto.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/views/admin/add_produto.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/resources/views/admin/add_slider.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/views/admin/add_slider.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/resources/views/admin/all_category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/views/admin/all_category.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/resources/views/admin/all_marcas.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/views/admin/all_marcas.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/resources/views/admin/all_produtos.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/views/admin/all_produtos.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/resources/views/admin/all_sliders.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/views/admin/all_sliders.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/views/admin/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/resources/views/admin/edit_cat.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/views/admin/edit_cat.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/resources/views/admin/edit_marca.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/views/admin/edit_marca.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/resources/views/admin/edit_produto.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/views/admin/edit_produto.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicStore/resources/views/admin_layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/views/admin_layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicStore/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/views/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/resources/views/pages/categoria_by_produto.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/views/pages/categoria_by_produto.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicStore/resources/views/pages/detalhes_produtos.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/views/pages/detalhes_produtos.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicStore/resources/views/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/views/pages/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/resources/views/pages/marca_by_produto.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/views/pages/marca_by_produto.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/routes/channels.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/routes/channels.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/routes/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/routes/console.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/server.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/storage/app/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/storage/app/public/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/storage/app/public/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/storage/framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/storage/framework/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/storage/framework/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/storage/framework/cache/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/storage/framework/cache/data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/storage/framework/sessions/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/storage/framework/testing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/storage/framework/testing/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/storage/framework/views/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/storage/logs/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/tests/CreatesApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/tests/CreatesApplication.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/tests/TestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musicStore/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/webpack.mix.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -165,26 +21,28 @@
     <session id="1374931376">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="env" value="1" />
+          <entry key="html" value="1" />
           <entry key="ico" value="1" />
-          <entry key="php" value="41" />
+          <entry key="php" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Blade" value="23" />
+          <entry key="Blade" value="25" />
+          <entry key="HTML" value="1" />
           <entry key="Image" value="1" />
           <entry key="PHP" value="18" />
           <entry key="PLAIN_TEXT" value="1" />
@@ -193,12 +51,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="env" value="11" />
-          <entry key="php" value="2270" />
+          <entry key="php" value="2876" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="1798" />
+          <entry key="Blade" value="2404" />
           <entry key="PHP" value="472" />
           <entry key="PLAIN_TEXT" value="11" />
         </counts>
@@ -210,17 +68,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/musicStore/resources/views/pages/detalhes_produtos.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            <state relative-caret-position="1955">
+              <caret line="85" column="81" selection-start-line="85" selection-start-column="81" selection-end-line="85" selection-end-column="81" />
+              <folding>
+                <element signature="e#5127#5158#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/ProdutoController.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/musicStore/resources/views/layout.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="120" column="2" lean-forward="true" selection-start-line="120" selection-start-column="2" selection-end-line="120" selection-end-column="2" />
+            <state relative-caret-position="207">
+              <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -229,43 +90,29 @@
         <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/MarcaController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="413">
-              <caret line="66" column="33" lean-forward="true" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
+              <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/musicStore/resources/views/pages/home.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-276">
-              <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/musicStore/resources/views/pages/marca_by_produto.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <element signature="e#108#157#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="207">
+              <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/CategoryController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1450" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/musicStore/resources/views/admin/edit_produto.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
+            <state relative-caret-position="690">
               <caret line="30" column="76" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
             </state>
           </provider>
@@ -274,7 +121,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/musicStore/resources/views/admin/add_produto.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
+            <state relative-caret-position="690">
               <caret line="30" column="94" selection-start-line="30" selection-start-column="94" selection-end-line="30" selection-end-column="97" />
             </state>
           </provider>
@@ -283,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/musicStore/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="95" column="72" lean-forward="true" selection-start-line="95" selection-start-column="72" selection-end-line="95" selection-end-column="72" />
+            <state relative-caret-position="1978">
+              <caret line="95" column="72" selection-start-line="95" selection-start-column="72" selection-end-line="95" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -305,12 +152,14 @@
         <option value="$PROJECT_DIR$/blog/resources/views/layouts/master.blade.php" />
         <option value="$PROJECT_DIR$/musicStore/app/Http/Controllers/Auth/HomeController.php" />
         <option value="$PROJECT_DIR$/musicStore/app/Http/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/musicStore/resources/views/pages/home.blade.php" />
-        <option value="$PROJECT_DIR$/musicStore/resources/views/pages/detalhes_produtos.blade.php" />
         <option value="$PROJECT_DIR$/musicStore/resources/views/admin/all_produtos.blade.php" />
         <option value="$PROJECT_DIR$/musicStore/routes/web.php" />
         <option value="$PROJECT_DIR$/musicStore/resources/views/admin/edit_produto.blade.php" />
         <option value="$PROJECT_DIR$/musicStore/app/Http/Controllers/ProdutoController.php" />
+        <option value="$PROJECT_DIR$/musicStore/resources/views/admin_layout.blade.php" />
+        <option value="$PROJECT_DIR$/musicStore/resources/views/pages/home.blade.php" />
+        <option value="$PROJECT_DIR$/musicStore/resources/views/pages/detalhes_produtos.blade.php" />
+        <option value="$PROJECT_DIR$/musicStore/resources/views/layout.blade.php" />
       </list>
     </option>
   </component>
@@ -416,9 +265,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="575" />
-    <option name="y" value="30" />
-    <option name="width" value="1390" />
+    <option name="x" value="430" />
+    <option name="y" value="19" />
+    <option name="width" value="1102" />
     <option name="height" value="1003" />
   </component>
   <component name="ProjectView">
@@ -426,7 +275,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -508,6 +356,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -551,18 +400,18 @@
       <workItem from="1578327991679" duration="599000" />
       <workItem from="1578331638726" duration="3029000" />
       <workItem from="1578335995127" duration="414000" />
-      <workItem from="1578431215619" duration="14660000" />
+      <workItem from="1578431215619" duration="15260000" />
+      <workItem from="1578499983926" duration="8011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29380000" />
+    <option name="totallyTimeSpent" value="37991000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="575" y="30" width="1390" height="1003" extended-state="0" />
-    <editor active="true" />
+    <frame x="430" y="19" width="1102" height="1003" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22932331" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1890595" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -607,9 +456,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/OneDrive/Ambiente de Trabalho/musicStore/app/Http/Controllers/Auth/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$USER_HOME$/OneDrive/Ambiente de Trabalho/musicStore/app/Http/Controllers/Auth/HomeController.php" />
     <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/Auth/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1426">
@@ -626,18 +473,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/AdminController.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicStore/resources/views/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="284" column="31" selection-start-line="284" selection-start-column="31" selection-end-line="284" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicStore/resources/views/admin_layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8418" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/SliderController.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -656,35 +491,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/musicStore/resources/views/pages/detalhes_produtos.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/musicStore/resources/views/admin/edit_cat.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-414" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicStore/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="95" column="72" lean-forward="true" selection-start-line="95" selection-start-column="72" selection-end-line="95" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/MarcaController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="66" column="33" lean-forward="true" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1450" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/musicStore/vendor/symfony/http-foundation/File/UploadedFile.php">
@@ -699,41 +508,86 @@
         <state relative-caret-position="-552" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/musicStore/resources/views/admin/add_produto.blade.php">
+    <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/ProdutoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="30" column="94" selection-start-line="30" selection-start-column="94" selection-end-line="30" selection-end-column="97" />
+        <state relative-caret-position="2691">
+          <caret line="120" column="2" selection-start-line="120" selection-start-column="2" selection-end-line="120" selection-end-column="2" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/musicStore/resources/views/admin/edit_produto.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
+        <state relative-caret-position="690">
           <caret line="30" column="76" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/ProdutoController.php">
+    <entry file="file://$PROJECT_DIR$/musicStore/resources/views/admin/add_produto.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="120" column="2" lean-forward="true" selection-start-line="120" selection-start-column="2" selection-end-line="120" selection-end-column="2" />
+        <state relative-caret-position="690">
+          <caret line="30" column="94" selection-start-line="30" selection-start-column="94" selection-end-line="30" selection-end-column="97" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/musicStore/resources/views/pages/home.blade.php">
+    <entry file="file://$PROJECT_DIR$/musicStore/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276">
-          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        <state relative-caret-position="1978">
+          <caret line="95" column="72" selection-start-line="95" selection-start-column="72" selection-end-line="95" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/musicStore/resources/views/pages/marca_by_produto.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="207">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicStore/resources/views/admin_layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="163" column="44" lean-forward="true" selection-start-line="163" selection-start-column="44" selection-end-line="163" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicStore/resources/views/pages/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/MarcaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicStore/resources/views/pages/detalhes_produtos.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1955">
+          <caret line="85" column="81" selection-start-line="85" selection-start-column="81" selection-end-line="85" selection-end-column="81" />
           <folding>
-            <element signature="e#108#157#0#PHP" expanded="true" />
+            <element signature="e#5127#5158#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/OneDrive/Ambiente de Trabalho/eshopper/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="145" column="4" selection-start-line="145" selection-start-column="4" selection-end-line="208" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicStore/resources/views/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
         </state>
       </provider>
     </entry>

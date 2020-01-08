@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Home | E-Shopper</title>
+    <title>Music Store</title>
     <link href="{{asset("frontend/css/bootstrap.min.css")}}" rel="stylesheet">
     <link href="{{asset("frontend/css/font-awesome.min.css")}}" rel="stylesheet">
     <link href="{{asset("frontend/css/prettyPhoto.css")}}" rel="stylesheet">
@@ -57,30 +57,7 @@
             <div class="row">
                 <div class="col-md-4 clearfix">
                     <div class="logo pull-left">
-                        <a href="index.html"><img src="images/home/logo.png" alt="" /></a>
-                    </div>
-                    <div class="btn-group pull-right clearfix">
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
-                                USA
-                                <span class="caret"></span>
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li><a href="">Canada</a></li>
-                                <li><a href="">UK</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
-                                DOLLAR
-                                <span class="caret"></span>
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li><a href="">Canadian Dollar</a></li>
-                                <li><a href="">Pound</a></li>
-                            </ul>
-                        </div>
+                        <a href="{{URL::to('/')}}"><img src="{{URL::to('frontend/images/home/logo.png')}}" alt="" /></a>
                     </div>
                 </div>
                 <div class="col-md-8 clearfix">
@@ -112,7 +89,7 @@
                     </div>
                     <div class="mainmenu pull-left">
                         <ul class="nav navbar-nav collapse navbar-collapse">
-                            <li><a href="index.html" class="active">Home</a></li>
+                            <li><a href="{{URL::to('/')}}" class="active">Home</a></li>
                             <li class="dropdown"><a href="#">Shop<i class="fa fa-angle-down"></i></a>
                                 <ul role="menu" class="sub-menu">
                                     <li><a href="shop.html">Products</a></li>
@@ -143,46 +120,55 @@
     </div><!--/header-bottom-->
 </header><!--/header-->
 
+
 <section id="slider"><!--slider-->
     <div class="container">
         <div class="row">
+            <div class="col-sm-12">
+                <div id="slider-carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#slider-carousel" data-slide-to="1"></li>
+                        <li data-target="#slider-carousel" data-slide-to="2"></li>
+                    </ol>
 
-            <div id="carousel-example-generic" class="carousel slide " data-ride="carousel">
-                <!-- Indicators -->
-                <?php $all_published_slider=DB::table('slider')
-                ->where('publication_status',1)
-                ->get();
-                ?>
-                <ol class="carousel-indicators">
-                    @foreach( $all_published_slider as $slider )
-                        <li data-target="#carousel-example-generic" data-slide-to="{{ $loop->index }}" class="{{ $loop->first ? 'active' : '' }}"></li>
-                    @endforeach
-                </ol>
+                    <div class="carousel-inner">
+                        <?php
+                            $all_published_slider=DB::table('slider')
+                                ->where('publication_status',1)
+                                ->get();
 
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                    @foreach( $all_published_slider as $slider )
-                        <div class="item {{ $loop->first ? ' active' : '' }}" >
-                            <img src="{{ $slider->slide_image }}"  style="width: 100%; height: 400px;" >
+                            $i=1;
+                            foreach ($all_published_slider as $slider){
+                                if($i==1){
+                        ?>
+                        <div class="item active">
+                            <?php  }else{ ?>
+                                <div class="item">
+                            <?php } ?>
+                            <div class="col-sm-11">
+                                <img src="{{URL::to($slider->slide_image)}}" class="girl img-responsive" alt="" />
+                            </div>
                         </div>
-                    @endforeach
+                        <?php $i++; } ?>
+                    </div>
+
+                    </div>
+
+                    <a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
                 </div>
 
-                <!-- Controls -->
-                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
-
         </div>
     </div>
-</section>
-                        </div>
+</section><!--/slider-->
+
+
 {{--                        <div class="item">--}}
 {{--                            <div class="col-sm-6">--}}
 {{--                                <h1><span>E</span>-SHOPPER</h1>--}}
@@ -259,7 +245,7 @@
                                     ->where('publication_status',1)
                                     ->get();
                                 foreach ($all_published_marcas as $m){?>
-                                <li><a href="{{URL::to('/produto_by_marca/'.$cat->cat_id)}} "> <span class="pull-right">(50)</span>{{$m->m_name}}</a></li>
+                                <li><a href="{{URL::to('/produto_by_marca/'.$cat->cat_id)}} "> <span class="pull-right"></span>{{$m->m_name}}</a></li>
                                     <?php } ?>
                             </ul>
                         </div>
