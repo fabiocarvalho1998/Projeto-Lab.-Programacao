@@ -2,7 +2,7 @@
 @section('content')
     <h2 class="title text-center">Featured Items</h2>
     <?php
-    foreach ($produto_by_categoria $categoria_by_produto){?>
+    foreach ($produto_by_categoria as $categoria_by_produto){?>
     <div class="col-sm-4">
         <div class="product-image-wrapper">
             <div class="single-products">

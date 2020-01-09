@@ -227,7 +227,7 @@
 
                                 <div class="panel panel-default">
                                     <div class="panel-heading">
-                                        <h4 class="panel-title"><a href="{{URL::to('/produto_by_categoria'.$cat->cat_id)}}">{{$cat->cat_name}}</a></h4>
+                                        <h4 class="panel-title"><a href="{{URL::to('/produto_by_categoria',$cat->cat_id)}}">{{$cat->cat_name}}</a></h4>
                                     </div>
                                 </div>
                         <?php } ?>

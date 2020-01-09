@@ -26,15 +26,16 @@ class HomeController extends Controller{
     }
 
     public function show_produto_by_categoria($cat_id) {
-        $produto_by_categoria=DB::table('produtos')
 
-         ->join('categorias', 'produtos.cat_id','=','categorias.cat_id')
-         ->join('marca','produtos.marca_id','=','marca.marca_id')
+        $produto_by_categoria=DB::table('produtos')
+         //->join('categorias', 'produtos','produtos.cat_id','=','categorias.cat_id')
+         ->join('categorias', 'produtos')->where('produtos.cat_id','categorias.cat_id')
          ->select('produtos.*','categorias.cat_name')
-         ->where('cat_id',$cat_id)
-         ->where('produto.publication_status',1)
+         ->where('produtos.cat_id',$cat_id)
+         ->where('produtos.publication_status',1)
          ->limit(18)
          ->get();
+
 
         $manage_produtos_by_categoria=view('pages.categoria_by_produto')->with('produto_by_categoria',$produto_by_categoria);
         return view('layout')->with('pages.categoria_by_produto',$manage_produtos_by_categoria );
