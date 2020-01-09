@@ -12,12 +12,16 @@
                             <img src="{{URL::to('frontend/images/product-details/rating.png')}}" alt="" />
                             <span>
 									<span>{{$produto_by_detalhes->p_price}} €</span>
+                                    <form action="{{url('add_to_carrinho')}}" method="post">
+                                        {{csrf_field()}}
 									<label>Quantidade:</label>
-									<input type="text" value="1" />
-									<button type="button" class="btn btn-fefault cart">
+									<input name="qt" type="text" value="1" />
+                                        <input type="hidden" name="product_id" value="{{$produto_by_detalhes->p_id}}}">
+									<button type="submit" class="btn btn-fefault cart">
 										<i class="fa fa-shopping-cart"></i>
 										Add to cart
 									</button>
+                                        </form>
 								</span>
                             <p><b>Disponibilidade:</b> Em Stock</p>
                             <p><b>Condição:</b> Nova</p>

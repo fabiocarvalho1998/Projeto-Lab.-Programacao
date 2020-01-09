@@ -29,13 +29,12 @@ class HomeController extends Controller{
         $produto_by_categoria=DB::table('produtos')
 
          ->join('categorias', 'produtos.cat_id','=','categorias.cat_id')
+         ->join('marca','produtos.marca_id','=','marca.marca_id')
          ->select('produtos.*','categorias.cat_name')
          ->where('cat_id',$cat_id)
          ->where('produto.publication_status',1)
          ->limit(18)
-
-           ->get();
-
+         ->get();
 
         $manage_produtos_by_categoria=view('pages.categoria_by_produto')->with('produto_by_categoria',$produto_by_categoria);
         return view('layout')->with('pages.categoria_by_produto',$manage_produtos_by_categoria );
@@ -49,6 +48,7 @@ class HomeController extends Controller{
             ->where('m_id',$m_id)
             ->where('produto.publication_status',1)
             ->limit(18)
+            ->first()
 
             ->get();
 

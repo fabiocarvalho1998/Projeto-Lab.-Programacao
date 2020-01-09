@@ -1,18 +1,8 @@
 @extends('layout')
 @section('content')
-    <h2 class="title text-center">Features Items</h2>
+    <h2 class="title text-center">Featured Items</h2>
     <?php
-
-//    $produto_by_categoria=DB::table('produtos')
-//        ->join('categorias', 'produtos.cat_id','=','categorias.cat_id')
-//        ->join('marcas','produtos.m_id','=','marcas.m_id')
-//        ->select('produtos.*','categorias.cat_name','marcas.m_name')
-//        ->where('cat_id',$cat_id)
-//        ->limit(9)
-//        ->get();
-
-
-    foreach ($produto_by_categoria as $categoria_by_produto){?>
+    foreach ($produto_by_categoria $categoria_by_produto){?>
     <div class="col-sm-4">
         <div class="product-image-wrapper">
             <div class="single-products">
@@ -147,5 +137,7 @@
     </div>
     </div>
     </section>
+    </body>
+    </html>
 
 @endsection

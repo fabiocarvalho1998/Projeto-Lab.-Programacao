@@ -24,7 +24,7 @@
                     <div class="overlay-content">
                         <h2>{{$published_produtos->p_price }}€</h2>
                         <a href="{{URL::to('/view_produto/'.$published_produtos->p_id)}}"><p>{{$published_produtos->p_name}}</p></a>
-                       <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                       <a href="{{URL::to('/view_produto/'.$published_produtos->p_id)}}"><p>{{$published_produtos->p_name}}" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
                     </div>
                 </div>
             </div>

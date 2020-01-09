@@ -20,6 +20,8 @@ Route::get('/produto_by_marca/{m_id}','HomeController@show_produto_by_marca');
 
 Route::get('/view_produto/{p_id}','HomeController@produto_detalhes_by_id');
 
+Route::post('/add_to_carrinho','CarrinhoController@add_to_carrinho');
+
 
 
 
