@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="0f4117b9-fe9c-4216-a9b2-09dae08f713b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicStore/app/Http/Controllers/Auth/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Http/Controllers/Auth/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicStore/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicStore/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/views/layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/musicStore/resources/views/pages/categoria_by_produto.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/views/pages/categoria_by_produto.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicStore/resources/views/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/views/pages/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicStore/resources/views/pages/marca_by_produto.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicStore/resources/views/pages/marca_by_produto.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,15 +23,16 @@
     <session id="1374931376">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -36,28 +40,28 @@
           <entry key="env" value="1" />
           <entry key="html" value="1" />
           <entry key="ico" value="1" />
-          <entry key="php" value="52" />
+          <entry key="php" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Blade" value="29" />
+          <entry key="Blade" value="31" />
           <entry key="HTML" value="1" />
           <entry key="Image" value="1" />
-          <entry key="PHP" value="23" />
+          <entry key="PHP" value="30" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="env" value="11" />
-          <entry key="php" value="3385" />
+          <entry key="php" value="4280" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="2411" />
-          <entry key="PHP" value="974" />
+          <entry key="Blade" value="3077" />
+          <entry key="PHP" value="1203" />
           <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
@@ -68,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/musicStore/resources/views/layout.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="229" column="107" selection-start-line="229" selection-start-column="107" selection-end-line="229" selection-end-column="107" />
+            <state relative-caret-position="466">
+              <caret line="245" column="44" selection-start-line="245" selection-start-column="44" selection-end-line="245" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -77,8 +81,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/musicStore/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="834">
+            <state relative-caret-position="2024">
               <caret line="97" column="72" selection-start-line="97" selection-start-column="72" selection-end-line="97" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/musicStore/resources/views/pages/home.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -86,17 +99,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/ProdutoController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
+            <state relative-caret-position="2346">
               <caret line="120" column="2" selection-start-line="120" selection-start-column="2" selection-end-line="120" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="-201">
+              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/Auth/HomeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="581">
+              <caret line="45" column="109" selection-start-line="45" selection-start-column="109" selection-end-line="45" selection-end-column="109" />
             </state>
           </provider>
         </entry>
@@ -104,8 +126,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/musicStore/resources/views/pages/categoria_by_produto.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            <state relative-caret-position="322">
+              <caret line="35" column="56" lean-forward="true" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/musicStore/resources/views/pages/marca_by_produto.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="36" column="125" selection-start-line="36" selection-start-column="125" selection-end-line="36" selection-end-column="125" />
             </state>
           </provider>
         </entry>
@@ -124,17 +155,18 @@
         <option value="$PROJECT_DIR$/blog/resources/views/shop/index.blade.php" />
         <option value="$PROJECT_DIR$/blog/resources/views/partials/header.blade.php" />
         <option value="$PROJECT_DIR$/blog/resources/views/layouts/master.blade.php" />
-        <option value="$PROJECT_DIR$/musicStore/app/Http/Controllers/Auth/HomeController.php" />
         <option value="$PROJECT_DIR$/musicStore/resources/views/admin/all_produtos.blade.php" />
         <option value="$PROJECT_DIR$/musicStore/routes/web.php" />
         <option value="$PROJECT_DIR$/musicStore/resources/views/admin/edit_produto.blade.php" />
         <option value="$PROJECT_DIR$/musicStore/app/Http/Controllers/ProdutoController.php" />
         <option value="$PROJECT_DIR$/musicStore/resources/views/admin_layout.blade.php" />
-        <option value="$PROJECT_DIR$/musicStore/resources/views/pages/home.blade.php" />
         <option value="$PROJECT_DIR$/musicStore/resources/views/pages/detalhes_produtos.blade.php" />
+        <option value="$PROJECT_DIR$/musicStore/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/musicStore/app/Http/Controllers/Auth/HomeController.php" />
         <option value="$PROJECT_DIR$/musicStore/resources/views/layout.blade.php" />
         <option value="$PROJECT_DIR$/musicStore/resources/views/pages/categoria_by_produto.blade.php" />
-        <option value="$PROJECT_DIR$/musicStore/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/musicStore/resources/views/pages/marca_by_produto.blade.php" />
+        <option value="$PROJECT_DIR$/musicStore/resources/views/pages/home.blade.php" />
       </list>
     </option>
   </component>
@@ -240,7 +272,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="430" />
+    <option name="x" value="808" />
     <option name="y" value="19" />
     <option name="width" value="1102" />
     <option name="height" value="1003" />
@@ -379,16 +411,17 @@
       <workItem from="1578499983926" duration="8011000" />
       <workItem from="1578528475481" duration="852000" />
       <workItem from="1578529353288" duration="3343000" />
+      <workItem from="1578580985385" duration="5681000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42186000" />
+    <option name="totallyTimeSpent" value="47867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15085287" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15245202" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -434,16 +467,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/OneDrive/Ambiente de Trabalho/musicStore/app/Http/Controllers/Auth/HomeController.php" />
-    <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/Auth/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1426">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/SliderController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-967" />
@@ -499,29 +522,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/musicStore/resources/views/pages/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/MarcaController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1449">
           <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicStore/resources/views/pages/marca_by_produto.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/musicStore/resources/views/admin/edit_produto.blade.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -540,38 +546,77 @@
     <entry file="file://$PROJECT_DIR$/musicStore/resources/views/pages/adicionar_carrinho.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/musicStore/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/SuperAdminController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="834">
-          <caret line="97" column="72" selection-start-line="97" selection-start-column="72" selection-end-line="97" selection-end-column="72" />
+        <state relative-caret-position="-201">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/ProdutoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
+        <state relative-caret-position="2346">
           <caret line="120" column="2" selection-start-line="120" selection-start-column="2" selection-end-line="120" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1029">
+          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/CarrinhoController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/Auth/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="45" column="109" selection-start-line="45" selection-start-column="109" selection-end-line="45" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicStore/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2024">
+          <caret line="97" column="72" selection-start-line="97" selection-start-column="72" selection-end-line="97" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicStore/resources/views/pages/marca_by_produto.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="36" column="125" selection-start-line="36" selection-start-column="125" selection-end-line="36" selection-end-column="125" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/musicStore/resources/views/pages/categoria_by_produto.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        <state relative-caret-position="322">
+          <caret line="35" column="56" lean-forward="true" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/musicStore/resources/views/layout.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="229" column="107" selection-start-line="229" selection-start-column="107" selection-end-line="229" selection-end-column="107" />
+        <state relative-caret-position="466">
+          <caret line="245" column="44" selection-start-line="245" selection-start-column="44" selection-end-line="245" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/musicStore/app/Http/Controllers/HomeController.php">
+    <entry file="file://$PROJECT_DIR$/musicStore/resources/views/pages/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="621">
+          <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
         </state>
       </provider>
     </entry>

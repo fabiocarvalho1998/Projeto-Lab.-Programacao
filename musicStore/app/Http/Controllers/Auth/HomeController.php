@@ -18,13 +18,12 @@ class HomeController extends Controller{
 
     public function show_produto_by_categoria($cat_id) {
         $produto_by_categoria=DB::table('produtos')
-
-            ->join('categorias', 'produtos.cat_id','=','categorias.cat_id')
-            ->select('produtos.*','categorias.cat_name')
-            ->where('cat_id',$cat_id)
-            ->where('produto.publication_status',1)
+            ->join('categorias','produtos.cat_id','=','categorias.cat_id')
+            ->join('marcas', 'produtos.m_id','=','marcas.m_id')
+            ->select('produtos.*','categorias.cat_name','marcas.m_name','marcas.m_id','categorias.cat_id')
+            ->where('produtos.cat_id',$cat_id)
+            ->where('produtos.publication_status',1)
             ->limit(18)
-
             ->get();
 
 
@@ -34,11 +33,11 @@ class HomeController extends Controller{
     }
     public function show_produto_by_marca($m_id) {
         $produto_by_marca=DB::table('produtos')
-
-            ->join('categorias', 'produtos.cat_id','=','categorias.cat_id')
-            ->select('produtos.*','categorias.cat_name')
-            ->where('m_id',$m_id)
-            ->where('produto.publication_status',1)
+            ->join('marcas', 'produtos.m_id','=','marcas.m_id')
+            ->join('categorias','produtos.cat_id','=','categorias.cat_id')
+            ->select('produtos.*','categorias.cat_name','marcas.m_name','marcas.m_id','categorias.cat_id')
+            ->where('produtos.m_id',$m_id)
+            ->where('produtos.publication_status',1)
             ->limit(18)
 
             ->get();

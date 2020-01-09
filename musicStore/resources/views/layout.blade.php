@@ -245,7 +245,7 @@
                                     ->where('publication_status',1)
                                     ->get();
                                 foreach ($all_published_marcas as $m){?>
-                                <li><a href="{{URL::to('/produto_by_marca/'.$cat->cat_id)}} "> <span class="pull-right"></span>{{$m->m_name}}</a></li>
+                                <li><a href="{{URL::to('/produto_by_marca',$m->m_id)}}"> {{$m->m_name}}</a></li>
                                     <?php } ?>
                             </ul>
                         </div>

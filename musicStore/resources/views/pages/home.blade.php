@@ -30,8 +30,8 @@
             </div>
             <div class="choose">
                 <ul class="nav nav-pills nav-justified">
-                    <li><a href="#"><i class="fa fa-plus-square"></i>{{$published_produtos->m_name}}</a></li>
-                    <li><a href="#"><i class="fa fa-plus-square"></i>{{$published_produtos->cat_name}}</a></li>
+                    <li><a href="{{URL::to('/produto_by_marca',$published_produtos->m_id)}}"><i class="fa fa-plus-square"></i>{{$published_produtos->m_name}}</a></li>
+                    <li><a href="{{URL::to('/produto_by_categoria',$published_produtos->cat_id)}}"><i class="fa fa-plus-square"></i>{{$published_produtos->cat_name}}</a></li>
                     <li><a href="{{URL::to('/view_produto/'.$published_produtos->p_id)}}"><p>{{$published_produtos->p_name}}"><i class="fa fa-plus-square"></i>Ver Produto</a></li>
                 </ul>
             </div>
