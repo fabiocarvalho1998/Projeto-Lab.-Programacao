@@ -16,20 +16,19 @@ session_start();
         }
 
 
-        public function logout(){
-        Session::flush();
-        return redirect()::to('/admin');
-
-}
+        //public function logout(){
+        //Session::flush();
+        //return redirect()::to('/admin');
+        //}
 
     public function AdminAuthCheck(){
-    $admin_id=Session::get('adm_id');
-    if($admin_id){
-        return;
-    }
-    else{
-        return Redirect::to('/admin')->send();
-    }
+        $admin_id=Session::get('adm_id');
+        if($admin_id){
+            return;
+        }
+        else{
+            return Redirect::to('/admin')->send();
+        }
     }
 
 }

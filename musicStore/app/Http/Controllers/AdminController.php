@@ -32,9 +32,8 @@ class AdminController extends Controller{
             return Redirect::to('/admin');
         }
     }
-//    public function logout(){
-//        Session::flush();
-//        return Redirect()::to('/admin');
-//
-//    }
+    public function logout(){
+        Session::flush();
+       return Redirect::to('/admin');
+    }
 }

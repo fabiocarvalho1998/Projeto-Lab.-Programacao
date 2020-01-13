@@ -37,7 +37,7 @@ Route::post('/admin_dashboard',[
     'as'=>'admin_dashboard',
     'uses'=>'AdminController@dashboard']);
 
-Route::get('/logout','SuperAdminController@logout');
+Route::get('/logout','AdminController@logout');
 
 
 //rotas relacionadas com as categorias
