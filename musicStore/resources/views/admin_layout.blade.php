@@ -93,7 +93,7 @@
                     <li><a href="{{URL::to('/all_marcas')}}"><i class=""></i><span class="hidden-tablet"> Todas as Marcas</span></a></li>
                     <li><a href="{{URL::to('/add_marca')}}"><i class=""></i><span class="hidden-tablet"> Adicionar Marca</span></a></li>
                     <li>
-                        <a class="dropmenu" href="#"><i class=""></i><span class="hidden-tablet"> Produtos</span><span class="label label-important"> New </span></a>
+                        <a class="dropmenu" href="#"><i class=""></i><span class="hidden-tablet"> Produtos</span><span class="label label-important"></span></a>
                         <ul>
                             <li><a class="submenu" href="{{URL::to('/add_produto')}}"><i class=""></i><span class="hidden-tablet"> Adicionar Produto</span></a></li>
                             <li><a class="submenu" href="{{URL::to('/all_produtos')}}"><i class=""></i><span class="hidden-tablet"> Todos os Produtos</span></a></li>

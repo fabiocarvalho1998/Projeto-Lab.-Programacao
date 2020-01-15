@@ -17,9 +17,8 @@ class HomeController extends Controller{
             ->join('categorias', 'produtos.cat_id','=','categorias.cat_id')
             ->join('marcas','produtos.m_id','=','marcas.m_id')
             ->select('produtos.*','categorias.cat_name','marcas.m_name')
-
+            ->paginate(6)
             ->get();
-
 
         $manage_produtos_publicados=view('pages.home')->with('all_produtos_publicados',$all_produtos_publicados);
         return view('layout')->with('pages.home',$manage_produtos_publicados);

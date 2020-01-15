@@ -10,11 +10,23 @@ use Session;
 class MarcaController extends Controller
 {
 
+    public function AdminAuthCheck(){
+        $admin_id=Session::get('adm_id');
+        if($admin_id){
+            return;
+        }
+        else{
+            return Redirect::to('/admin')->send();
+        }
+    }
+
     public function index(){
+        $this->AdminAuthCheck();
         return view('admin.add_marca');
     }
 
     public function save_marca(Request $req){
+        $this->AdminAuthCheck();
         $data=array();
         $data['m_id']=$req->m_id;
         $data['m_name']=$req->m_name;
@@ -27,13 +39,15 @@ class MarcaController extends Controller
     }
 
     public function all_marcas(){
-        $all_marcas_data=DB::table('marcas')->get();
+        $this->AdminAuthCheck();
+        $all_marcas_data=DB::table('marcas')->paginate(5);
         $manage_marca=view('admin.all_marcas')->with('all_marcas_data',$all_marcas_data);
 
         return view('admin_layout')->with('admin.all_marcas',$manage_marca);
     }
 
     public function unactive_marca($m_id){
+        $this->AdminAuthCheck();
         DB::table('marcas')
             ->where('m_id',$m_id)
             ->update(['publication_status'=>0]);
@@ -43,6 +57,7 @@ class MarcaController extends Controller
     }
 
     public function active_marca($m_id){
+        $this->AdminAuthCheck();
         DB::table('marcas')
             ->where('m_id',$m_id)
             ->update(['publication_status'=>1]);
@@ -51,6 +66,7 @@ class MarcaController extends Controller
     }
 
     public function edit_marca($m_id){
+        $this->AdminAuthCheck();
         $marca_data=DB::table('marcas')
             ->where('m_id',$m_id)
             ->first();
@@ -60,6 +76,7 @@ class MarcaController extends Controller
     }
 
     public function update_marca(Request $req,$m_id){
+        $this->AdminAuthCheck();
         $data=array();
         $data['m_name']=$req->m_name;
         $data['m_description']=$req->m_description;
@@ -71,6 +88,7 @@ class MarcaController extends Controller
     }
 
     public function delete_marca($m_id){
+        $this->AdminAuthCheck();
         DB::table('marcas')
             ->where('m_id',$m_id)
             ->delete();

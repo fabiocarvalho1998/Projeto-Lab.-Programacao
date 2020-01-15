@@ -2,14 +2,6 @@
 @section('content')
     <h2 class="title text-center">Produtos Disponíveis</h2>
     <?php
-    $all_produtos_publicados=DB::table('produtos')
-        ->join('categorias', 'produtos.cat_id','=','categorias.cat_id')
-        ->join('marcas','produtos.m_id','=','marcas.m_id')
-        ->select('produtos.*','categorias.cat_name','marcas.m_name')
-        ->where('produtos.publication_status',1)
-        ->limit(9)
-        ->get();
-
      foreach ($all_produtos_publicados as $published_produtos){?>
     <div class="col-sm-4">
         <div class="product-image-wrapper">
@@ -31,10 +23,11 @@
                 <ul class="nav nav-pills nav-justified">
                     <li><a href="{{URL::to('/produto_by_marca',$published_produtos->m_id)}}"><i class="fa fa-plus-square"></i>{{$published_produtos->m_name}}</a></li>
                     <li><a href="{{URL::to('/produto_by_categoria',$published_produtos->cat_id)}}"><i class="fa fa-plus-square"></i>{{$published_produtos->cat_name}}</a></li>
-                    <li><a href="{{URL::to('/view_produto/'.$published_produtos->p_id)}}"><p>{{$published_produtos->p_name}}"><i class="fa fa-plus-square"></i>Ver Produto</a></li>
+                    <li><a href="{{URL::to('/view_produto/'.$published_produtos->p_id)}}"><p><i class="fa fa-plus-square"></i>Ver Produto</a></li>
                 </ul>
             </div>
         </div>
     </div>
 <?php } ?>
+    <span>{{$all_produtos_publicados->links()}}</span>
 @endsection

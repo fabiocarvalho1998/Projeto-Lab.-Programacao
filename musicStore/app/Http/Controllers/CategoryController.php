@@ -17,7 +17,7 @@ class CategoryController extends Controller
 
     public function all_category(){
         $this->AdminAuthCheck();
-        $all_category_data=DB::table('categorias')->get();
+        $all_category_data=DB::table('categorias')->paginate(5);
         $manage_category=view('admin.all_category')->with('all_category_data',$all_category_data);
 
         return view('admin_layout')->with('admin.all_category',$manage_category);

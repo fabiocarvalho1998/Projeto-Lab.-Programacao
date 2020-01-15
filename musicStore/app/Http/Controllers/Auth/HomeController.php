@@ -10,9 +10,15 @@ use Session;
 class HomeController extends Controller{
 
     public function index(){
+        $all_produtos_publicados=DB::table('produtos')
+            ->join('categorias', 'produtos.cat_id','=','categorias.cat_id')
+            ->join('marcas','produtos.m_id','=','marcas.m_id')
+            ->select('produtos.*','categorias.cat_name','marcas.m_name')
+            ->paginate(6);
 
-        return view('pages.home');
-
+        $manage_produtos_publicados=view('pages.home')->with('all_produtos_publicados',$all_produtos_publicados);
+        return view('layout')->with('pages.home',$manage_produtos_publicados);
+        //return view('pages.home');
     }
 
 
@@ -23,8 +29,7 @@ class HomeController extends Controller{
             ->select('produtos.*','categorias.cat_name','marcas.m_name','marcas.m_id','categorias.cat_id')
             ->where('produtos.cat_id',$cat_id)
             ->where('produtos.publication_status',1)
-            ->limit(18)
-            ->get();
+            ->paginate(3);
 
 
         $manage_produtos_by_categoria=view('pages.categoria_by_produto')->with('produto_by_categoria',$produto_by_categoria);
@@ -38,9 +43,7 @@ class HomeController extends Controller{
             ->select('produtos.*','categorias.cat_name','marcas.m_name','marcas.m_id','categorias.cat_id')
             ->where('produtos.m_id',$m_id)
             ->where('produtos.publication_status',1)
-            ->limit(18)
-
-            ->get();
+            ->paginate(3);
 
 
         $manage_produtos_by_marca=view('pages.marca_by_produto')->with('produto_by_marca',$produto_by_marca);

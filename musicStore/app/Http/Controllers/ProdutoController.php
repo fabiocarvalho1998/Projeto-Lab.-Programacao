@@ -25,6 +25,7 @@ class ProdutoController extends Controller
         $this->AdminAuthCheck();
         return view('admin.add_produto');
     }
+
     public function all_produto(){
         $this->AdminAuthCheck();
         $all_produtos_data=DB::table('produtos')
@@ -32,8 +33,7 @@ class ProdutoController extends Controller
             ->join('categorias', 'produtos.cat_id','=','categorias.cat_id')
             ->join('marcas','produtos.m_id','=','marcas.m_id')
             ->select('produtos.*','categorias.cat_name','marcas.m_name')
-
-            ->get();
+            ->paginate(5);
 
 //        echo "<pre>";
 //        print_r($all_produtos_data);
@@ -44,6 +44,7 @@ class ProdutoController extends Controller
         return view('admin_layout')->with('admin.all_produtos',$manage_produtos);
     }
     public function save_produto(Request $request){
+        $this->AdminAuthCheck();
         $data=array();
         $data['p_name']=$request->p_name;
         $data['cat_id']=$request->cat_id;
@@ -73,6 +74,7 @@ class ProdutoController extends Controller
 
     }
     public function unactive_produto($p_id){
+        $this->AdminAuthCheck();
         DB::table('produtos')
             ->where('p_id',$p_id)
             ->update(['publication_status'=>0]);
@@ -82,6 +84,7 @@ class ProdutoController extends Controller
     }
 
     public function active_produto($p_id){
+        $this->AdminAuthCheck();
         DB::table('produtos')
             ->where('p_id',$p_id)
             ->update(['publication_status'=>1]);

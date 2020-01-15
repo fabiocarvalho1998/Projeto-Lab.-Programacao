@@ -9,7 +9,6 @@
                             <img src="{{URL::to($produto_by_detalhes->p_image)}}" alt="">
                             <h2>{{$produto_by_detalhes->p_name}}</h2>
                             <p>Cor: {{$produto_by_detalhes->p_color}}</p>
-                            <img src="{{URL::to('frontend/images/product-details/rating.png')}}" alt="" />
                             <span>
 									<span>{{$produto_by_detalhes->p_price}} €</span>
                                     <form action="{{url('add_to_carrinho')}}" method="post">
@@ -23,7 +22,6 @@
 									</button>
                                         </form>
 								</span>
-                            <p><b>Disponibilidade:</b> Em Stock</p>
                             <p><b>Condição:</b> Nova</p>
                             <p><b>Descrição:</b> {{$produto_by_detalhes->p_long_description}}</p>
                             <p><b>Marca:</b> {{$produto_by_detalhes->m_name}}</p>

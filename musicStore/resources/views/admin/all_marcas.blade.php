@@ -26,7 +26,7 @@
                 <h2><i class="halflings-icon user"></i><span class="break"></span>Dados</h2>
             </div>
             <div class="box-content">
-                <table class="table table-striped table-bordered bootstrap-datatable datatable">
+                <table class="table table-striped table-bordered">
                     <thead>
                     <tr>
                         <th>ID da Marca</th>
@@ -75,4 +75,5 @@
 
     </div><!--/row-->
 
+    <span>{{$all_marcas_data->links()}}</span>
 @endsection

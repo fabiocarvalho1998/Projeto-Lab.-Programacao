@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\DB;
 
 class CarrinhoController extends Controller
 {
+
     public function add_to_carrinho(Request $request){
         $qt=$request->qt;
         $produto_id=$request->p_id;
